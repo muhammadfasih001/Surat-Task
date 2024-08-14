@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AppColor {
@@ -5,6 +6,10 @@ class AppColor {
   static const Color tcolor = Colors.black;
   //AYAH DEATAIL TEXT COLOR
   static const Color ayahdetailstextcol = Colors.grey;
+  //SURAH PAGE BGCOLOR
+  static const Color surahpagebgcolor = CupertinoColors.white;
+  //APPBAR COLOR
+  static const Color appbarcolor = CupertinoColors.white;
 }
 
 class AppTextSize {

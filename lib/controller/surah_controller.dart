@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_application_task/services/surah_api_service.dart';
 import 'package:get/get.dart';
 import '../models/surah_model.dart';
@@ -24,6 +25,7 @@ class SurahController extends GetxController {
 
       if (surahs.isNotEmpty) {
         selectedSurah.value = surahs.first;
+
         await loadAyahs(surahs.first.number!);
       }
     } catch (e) {
